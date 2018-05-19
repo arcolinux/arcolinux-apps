@@ -121,4 +121,4 @@ Exec=pavucontrol
 Icon=multimedia-volume-control
 StartupNotify=true
 Type=Application
-Categories=AudioVideo;Audio;Mixer;GTK;GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
+Categories=GTK;GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
