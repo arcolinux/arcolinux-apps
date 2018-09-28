@@ -7,6 +7,6 @@ Comment=Compositor for X11
 Categories=Utility;
 TryExec=compton --xrender-sync-fence
 Exec=compton --xrender-sync-fence
-NoDisplay=true
 Icon=compton
 # Thanks to quequotion for providing this file!
+NoDisplay=true
