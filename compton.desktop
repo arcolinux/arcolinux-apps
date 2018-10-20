@@ -5,7 +5,7 @@ Name=compton
 GenericName=X compositor
 Comment=Compositor for X11
 Categories=Utility;
-TryExec=compton --xrender-sync-fence
+TryExec=/usr/bin/compton
 Exec=compton --xrender-sync-fence
 Icon=compton
 # Thanks to quequotion for providing this file!
