@@ -10,7 +10,7 @@ Name[hu]=Gyors rendszerinformáció
 Name[nl]=Snelle Systeeminformatie
 Comment=Information about your hardware
 GenericName=system info
-Exec=termite -e "/usr/bin/inxi -F" --geometry=1000x800 --hold
+Exec=termite -e "/usr/bin/inxi -F" --hold
 Icon=audio-card
 Type=Application
 StartupNotify=true
