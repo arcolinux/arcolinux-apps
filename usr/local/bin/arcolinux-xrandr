@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#if autorandr is installed use that to set screens horizontal
+if pacman -Qi autorandr &> /dev/null; then
+	autorandr horizontal
+fi
