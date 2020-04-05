@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+##################################################################################################################
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+##################################################################################################################
+
+#Scans the existing files in ~/.config/autostart and launches them"
+#Created for TWMs
+if pacman -Qi dex &> /dev/null; then
+	:
+	else
+	sudo pacman -S dex --noconfirm
+fi
+autostartlist=$(ls $HOME/.config/autostart)
+for name in $autostartlist; do
+	dex "$HOME/.config/autostart/"$name
+done
+exit 1
