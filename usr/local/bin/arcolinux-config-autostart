@@ -12,8 +12,9 @@ if pacman -Qi dex &> /dev/null; then
 	else
 	sudo pacman -S dex --noconfirm
 fi
-autostartlist=$(ls $HOME/.config/autostart)
-for name in $autostartlist; do
-	dex "$HOME/.config/autostart/"$name
-done
+# autostartlist=$(ls $HOME/.config/autostart)
+# for name in $autostartlist; do
+# 	dex "$HOME/.config/autostart/"$name
+# done
+dex -a -s ~/.config/autostart
 exit 1
