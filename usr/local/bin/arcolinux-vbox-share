@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Automount shared folders for virtualbox
-sudo gpasswd -a $USER vboxsf
+user=$( who | cut -d ' ' -f1 | uniq)
+sudo gpasswd -a $user vboxsf
 sudo systemctl enable vboxservice.service
 sudo systemctl start vboxservice.service
 echo "##############################################"
