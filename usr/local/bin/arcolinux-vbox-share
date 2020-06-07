@@ -4,3 +4,9 @@
 gpasswd -a $USER vboxsf
 systemctl enable vboxservice.service
 systemctl start vboxservice.service
+echo "##############################################"
+echo "Now log out and log back in"
+echo "If you have set virtualbox to share a folder"
+echo "with automount, it will appear in the"
+echo "filemanager at next login"
+echo "##############################################"
