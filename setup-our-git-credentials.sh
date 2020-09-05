@@ -2,7 +2,7 @@
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	  : 	Erik Dubois
+# Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
 ##################################################################################################################
@@ -64,68 +64,62 @@ case $CHOICE in
       ;;
 
     1 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "arcolinuxz"
+			git config --global user.name "Erik Dubois"
 			git config --global user.email "erik.dubois@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     2 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "marcoobaid"
-			git config --global user.email "erik.dubois@gmail.com"
+			git config --global user.name "Marco Obaid"
+			git config --global user.email "marco.obaid@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     3 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "avraniel"
+			git config --global user.name "Raniel Laguna"
 			git config --global user.email "avraniel@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     4 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "samurailostinjapan"
+			git config --global user.name "John Blevins"
 			git config --global user.email "samurailostinjapan@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     5 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "coritanie"
+			git config --global user.name "Steve Younger"
 			git config --global user.email "coritanie@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
     6 )
-			git init
 			git config --global pull.rebase false
 			git config --global push.default simple
-			git config --global user.name "bradheff"
+			git config --global user.name "Brad Heffernan"
 			git config --global user.email "ph3onix83@gmail.com"
 			sudo git config --system core.editor nano
 			git config --global credential.helper cache
 			git config --global credential.helper 'cache --timeout=32000'
       ;;
-		7 )
-			echo
-		  ;;
+    7 )
+      echo
+      ;;
     8 )
       echo
       ;;
